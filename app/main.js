@@ -1,10 +1,11 @@
-import ValuesController from "./Controllers/ValuesController.js";
+import TriviaController from "./Controllers/TriviaController.js";
 
 
 class App {
     constructor() {
+        console.log("Hello from main.js")
         this.controllers = {
-            valuesController: new ValuesController()
+            triviaController: new TriviaController()
         }
     }
 }
